@@ -1,3 +1,6 @@
+provider "aws" {
+    region ="ap-south-1"
+}
 
 resource "aws_iam_role" "lambda_role" {
  name   = "terraform_aws_lambda_role"
