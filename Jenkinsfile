@@ -4,7 +4,7 @@
     stages {
       stage('fetch_latest_code') {
         steps {
-          git changelog: false, poll: false, url: 'https://github.com/saddamkafil/terraform-lambda-jenkins-works.git'
+          git 'https://github.com/saddamkafil/terraform-lambda-jenkins-works.git'
         }
       }
 
